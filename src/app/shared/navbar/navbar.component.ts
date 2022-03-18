@@ -81,5 +81,9 @@ export class NavbarComponent implements OnInit {
         var location = document.body.scrollHeight * 0.7;
         window.scrollTo(0,location);
       }
+          
+    goToTop(){
+        window.scroll(0,0);
+      }
 }
 
