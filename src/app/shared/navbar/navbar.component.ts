@@ -77,8 +77,9 @@ export class NavbarComponent implements OnInit {
         this.modalContatoIsOpen = open;
     }
     
-    btnOKClick(){
-
-    }
+    goToBottom(){
+        var location = document.body.scrollHeight * 0.7;
+        window.scrollTo(0,location);
+      }
 }
 
